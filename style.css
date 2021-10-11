@@ -1,0 +1,30 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    background: radial-gradient(maroon, transparent);
+}
+.card{
+    margin: auto;
+    width: 45%;
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+* {
+    justify-content: center;
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.btn-primary {
+    background: maroon;
+    border-color: maroon;
+}
+.btn-primary:hover {
+    background: rgb(224, 24, 24);
+    border-color: rgb(224, 24, 24);
+}
